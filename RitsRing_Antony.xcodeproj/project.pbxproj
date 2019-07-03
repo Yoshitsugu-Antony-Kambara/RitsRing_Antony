@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14A842A222CB9C22004E1E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A842A122CB9C22004E1E26 /* AppDelegate.swift */; };
+		14A842A422CB9C22004E1E26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A842A322CB9C22004E1E26 /* ViewController.swift */; };
+		14A842A722CB9C22004E1E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A842A522CB9C22004E1E26 /* Main.storyboard */; };
+		14A842A922CB9C25004E1E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A842A822CB9C25004E1E26 /* Assets.xcassets */; };
+		14A842AC22CB9C25004E1E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A842AA22CB9C25004E1E26 /* LaunchScreen.storyboard */; };
+		14A842B722CB9C25004E1E26 /* RitsRing_AntonyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A842B622CB9C25004E1E26 /* RitsRing_AntonyTests.swift */; };
+		14A842C222CB9C25004E1E26 /* RitsRing_AntonyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A842C122CB9C25004E1E26 /* RitsRing_AntonyUITests.swift */; };
+		14A842D022CC8B55004E1E26 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A842CF22CC8B55004E1E26 /* SampleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14A842B322CB9C25004E1E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14A8429622CB9C22004E1E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14A8429D22CB9C22004E1E26;
+			remoteInfo = RitsRing_Antony;
+		};
+		14A842BE22CB9C25004E1E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14A8429622CB9C22004E1E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14A8429D22CB9C22004E1E26;
+			remoteInfo = RitsRing_Antony;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14A8429E22CB9C22004E1E26 /* RitsRing_Antony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RitsRing_Antony.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A842A122CB9C22004E1E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14A842A322CB9C22004E1E26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14A842A622CB9C22004E1E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14A842A822CB9C25004E1E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14A842AB22CB9C25004E1E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14A842AD22CB9C25004E1E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A842B222CB9C25004E1E26 /* RitsRing_AntonyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RitsRing_AntonyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A842B622CB9C25004E1E26 /* RitsRing_AntonyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitsRing_AntonyTests.swift; sourceTree = "<group>"; };
+		14A842B822CB9C25004E1E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A842BD22CB9C25004E1E26 /* RitsRing_AntonyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RitsRing_AntonyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A842C122CB9C25004E1E26 /* RitsRing_AntonyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitsRing_AntonyUITests.swift; sourceTree = "<group>"; };
+		14A842C322CB9C25004E1E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A842CF22CC8B55004E1E26 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14A8429B22CB9C22004E1E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A842AF22CB9C25004E1E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A842BA22CB9C25004E1E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A8429522CB9C22004E1E26 = {
+			isa = PBXGroup;
+			children = (
+				14A842A022CB9C22004E1E26 /* RitsRing_Antony */,
+				14A842B522CB9C25004E1E26 /* RitsRing_AntonyTests */,
+				14A842C022CB9C25004E1E26 /* RitsRing_AntonyUITests */,
+				14A8429F22CB9C22004E1E26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14A8429F22CB9C22004E1E26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14A8429E22CB9C22004E1E26 /* RitsRing_Antony.app */,
+				14A842B222CB9C25004E1E26 /* RitsRing_AntonyTests.xctest */,
+				14A842BD22CB9C25004E1E26 /* RitsRing_AntonyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14A842A022CB9C22004E1E26 /* RitsRing_Antony */ = {
+			isa = PBXGroup;
+			children = (
+				14A842A122CB9C22004E1E26 /* AppDelegate.swift */,
+				14A842A322CB9C22004E1E26 /* ViewController.swift */,
+				14A842CF22CC8B55004E1E26 /* SampleViewController.swift */,
+				14A842A522CB9C22004E1E26 /* Main.storyboard */,
+				14A842A822CB9C25004E1E26 /* Assets.xcassets */,
+				14A842AA22CB9C25004E1E26 /* LaunchScreen.storyboard */,
+				14A842AD22CB9C25004E1E26 /* Info.plist */,
+			);
+			path = RitsRing_Antony;
+			sourceTree = "<group>";
+		};
+		14A842B522CB9C25004E1E26 /* RitsRing_AntonyTests */ = {
+			isa = PBXGroup;
+			children = (
+				14A842B622CB9C25004E1E26 /* RitsRing_AntonyTests.swift */,
+				14A842B822CB9C25004E1E26 /* Info.plist */,
+			);
+			path = RitsRing_AntonyTests;
+			sourceTree = "<group>";
+		};
+		14A842C022CB9C25004E1E26 /* RitsRing_AntonyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14A842C122CB9C25004E1E26 /* RitsRing_AntonyUITests.swift */,
+				14A842C322CB9C25004E1E26 /* Info.plist */,
+			);
+			path = RitsRing_AntonyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14A8429D22CB9C22004E1E26 /* RitsRing_Antony */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A842C622CB9C25004E1E26 /* Build configuration list for PBXNativeTarget "RitsRing_Antony" */;
+			buildPhases = (
+				14A8429A22CB9C22004E1E26 /* Sources */,
+				14A8429B22CB9C22004E1E26 /* Frameworks */,
+				14A8429C22CB9C22004E1E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RitsRing_Antony;
+			productName = RitsRing_Antony;
+			productReference = 14A8429E22CB9C22004E1E26 /* RitsRing_Antony.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14A842B122CB9C25004E1E26 /* RitsRing_AntonyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A842C922CB9C25004E1E26 /* Build configuration list for PBXNativeTarget "RitsRing_AntonyTests" */;
+			buildPhases = (
+				14A842AE22CB9C25004E1E26 /* Sources */,
+				14A842AF22CB9C25004E1E26 /* Frameworks */,
+				14A842B022CB9C25004E1E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14A842B422CB9C25004E1E26 /* PBXTargetDependency */,
+			);
+			name = RitsRing_AntonyTests;
+			productName = RitsRing_AntonyTests;
+			productReference = 14A842B222CB9C25004E1E26 /* RitsRing_AntonyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14A842BC22CB9C25004E1E26 /* RitsRing_AntonyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A842CC22CB9C25004E1E26 /* Build configuration list for PBXNativeTarget "RitsRing_AntonyUITests" */;
+			buildPhases = (
+				14A842B922CB9C25004E1E26 /* Sources */,
+				14A842BA22CB9C25004E1E26 /* Frameworks */,
+				14A842BB22CB9C25004E1E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14A842BF22CB9C25004E1E26 /* PBXTargetDependency */,
+			);
+			name = RitsRing_AntonyUITests;
+			productName = RitsRing_AntonyUITests;
+			productReference = 14A842BD22CB9C25004E1E26 /* RitsRing_AntonyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14A8429622CB9C22004E1E26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = YoshitsuguKambara;
+				TargetAttributes = {
+					14A8429D22CB9C22004E1E26 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					14A842B122CB9C25004E1E26 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 14A8429D22CB9C22004E1E26;
+					};
+					14A842BC22CB9C25004E1E26 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 14A8429D22CB9C22004E1E26;
+					};
+				};
+			};
+			buildConfigurationList = 14A8429922CB9C22004E1E26 /* Build configuration list for PBXProject "RitsRing_Antony" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14A8429522CB9C22004E1E26;
+			productRefGroup = 14A8429F22CB9C22004E1E26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14A8429D22CB9C22004E1E26 /* RitsRing_Antony */,
+				14A842B122CB9C25004E1E26 /* RitsRing_AntonyTests */,
+				14A842BC22CB9C25004E1E26 /* RitsRing_AntonyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14A8429C22CB9C22004E1E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A842AC22CB9C25004E1E26 /* LaunchScreen.storyboard in Resources */,
+				14A842A922CB9C25004E1E26 /* Assets.xcassets in Resources */,
+				14A842A722CB9C22004E1E26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A842B022CB9C25004E1E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A842BB22CB9C25004E1E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14A8429A22CB9C22004E1E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A842A422CB9C22004E1E26 /* ViewController.swift in Sources */,
+				14A842A222CB9C22004E1E26 /* AppDelegate.swift in Sources */,
+				14A842D022CC8B55004E1E26 /* SampleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A842AE22CB9C25004E1E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A842B722CB9C25004E1E26 /* RitsRing_AntonyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A842B922CB9C25004E1E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A842C222CB9C25004E1E26 /* RitsRing_AntonyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14A842B422CB9C25004E1E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14A8429D22CB9C22004E1E26 /* RitsRing_Antony */;
+			targetProxy = 14A842B322CB9C25004E1E26 /* PBXContainerItemProxy */;
+		};
+		14A842BF22CB9C25004E1E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14A8429D22CB9C22004E1E26 /* RitsRing_Antony */;
+			targetProxy = 14A842BE22CB9C25004E1E26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14A842A522CB9C22004E1E26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A842A622CB9C22004E1E26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14A842AA22CB9C25004E1E26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A842AB22CB9C25004E1E26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14A842C422CB9C25004E1E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14A842C522CB9C25004E1E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14A842C722CB9C25004E1E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WD8VB9S8R7;
+				INFOPLIST_FILE = RitsRing_Antony/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.someone.RitsRing-Antony";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14A842C822CB9C25004E1E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WD8VB9S8R7;
+				INFOPLIST_FILE = RitsRing_Antony/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.someone.RitsRing-Antony";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14A842CA22CB9C25004E1E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WD8VB9S8R7;
+				INFOPLIST_FILE = RitsRing_AntonyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.someone.RitsRing-AntonyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RitsRing_Antony.app/RitsRing_Antony";
+			};
+			name = Debug;
+		};
+		14A842CB22CB9C25004E1E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WD8VB9S8R7;
+				INFOPLIST_FILE = RitsRing_AntonyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.someone.RitsRing-AntonyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RitsRing_Antony.app/RitsRing_Antony";
+			};
+			name = Release;
+		};
+		14A842CD22CB9C25004E1E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WD8VB9S8R7;
+				INFOPLIST_FILE = RitsRing_AntonyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.someone.RitsRing-AntonyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RitsRing_Antony;
+			};
+			name = Debug;
+		};
+		14A842CE22CB9C25004E1E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WD8VB9S8R7;
+				INFOPLIST_FILE = RitsRing_AntonyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.someone.RitsRing-AntonyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RitsRing_Antony;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14A8429922CB9C22004E1E26 /* Build configuration list for PBXProject "RitsRing_Antony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A842C422CB9C25004E1E26 /* Debug */,
+				14A842C522CB9C25004E1E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14A842C622CB9C25004E1E26 /* Build configuration list for PBXNativeTarget "RitsRing_Antony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A842C722CB9C25004E1E26 /* Debug */,
+				14A842C822CB9C25004E1E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14A842C922CB9C25004E1E26 /* Build configuration list for PBXNativeTarget "RitsRing_AntonyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A842CA22CB9C25004E1E26 /* Debug */,
+				14A842CB22CB9C25004E1E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14A842CC22CB9C25004E1E26 /* Build configuration list for PBXNativeTarget "RitsRing_AntonyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A842CD22CB9C25004E1E26 /* Debug */,
+				14A842CE22CB9C25004E1E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14A8429622CB9C22004E1E26 /* Project object */;
+}
